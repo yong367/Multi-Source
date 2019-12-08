@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    base:
+     username: mysql
+     password: mysql
+     jdbc-url: jdbc:oracle:thin:@localhost:1521:orcl
+     driver-class-name: oracle.jdbc.OracleDriver
+
+    mysql:
+      username: root
+      password: mysql
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/car?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+      driver-class-name: com.mysql.cj.jdbc.Driver
