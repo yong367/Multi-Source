@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     base:
-     username: mysql
-     password: mysql
+     username: weifeng
+     password: weifeng
      jdbc-url: jdbc:oracle:thin:@localhost:1521:orcl
      driver-class-name: oracle.jdbc.OracleDriver
 
